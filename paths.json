@@ -1,7 +1,7 @@
 {
   "mappings": [
-    "/content/franklin-pratyush/:/",
-    "/content/franklin-pratyush/metadata:/metadata.json"
+    "/content/franklin-site-pratyush/:/",
+    "/content/franklin-site-pratyush/metadata:/metadata.json"
   ]
 }
 
