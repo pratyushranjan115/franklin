@@ -15,7 +15,7 @@ export default function decorate(block) {
     });
   }
   function toggleFocusedClass() {
-    const isMobile = !window.matchMedia('(min-width: 999px)').matches;
+    const isMobile = !window.matchMedia('(min-width: 999px) ').matches;
     const cardsContainer = block.querySelector('.teaser__cards');
     const cards = block.querySelectorAll('.teaser__cards .teaser__card');
 
