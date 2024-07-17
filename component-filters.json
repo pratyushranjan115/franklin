@@ -1,0 +1,275 @@
+[
+  {
+    "id": "main",
+    "components": [
+      "section"
+    ]
+  },
+  {
+    "id": "columns",
+    "components": []
+  },
+  {
+    "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "teaser",
+      "columns",
+      "links"
+    ]
+  },
+  {
+    "id": "section",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "quote",
+      "personal",
+      "teaser",
+      "list",
+      "carousel",
+      "3dConfigurator",
+      "3dConfigurator-js",
+      "container",
+      "customColumns",
+      "links",
+      "visual-comparison",
+      "visual-comparison-blob",
+      "link-grid",
+      "logo",
+      "teaser-list",
+      "sign-in",
+      "nav-cars",
+      "nav-compare",
+      "search",
+      "contact",
+      "nitesh-test",
+      "immersive-teaser",
+      "icontitle",
+      "test-teaser",
+      "highlight-tabs",
+      "widget",
+      "nexa-world",
+      "location",
+      "nexa-hero-banner",
+      "nexa-eshowroom-experience",
+      "banner-carousel",
+      "car-filter",
+      "slider",
+      "highlights",
+      "finance-options",
+      "arena-help-me-select",
+      "intro-to-design-details",
+      "car-detail-feature",
+      "nexa-car-hero-banner",
+      "best-deals",
+      "video-teaser",
+      "brand-film-carousel",
+      "finance-entry-point",
+      "section-navigator",
+      "variant-listing",
+      "mfe-poc",
+      "hero-banner-dealer",
+      "offer-list",
+      "secondary-navigation",
+      "car-detail-banner",
+      "safety-tabs",
+      "brand-header",
+      "logolist"
+    ]
+  },
+  {
+    "id": "customSection",
+    "components": [
+      "list"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
+    ]
+  },
+  {
+    "id": "list",
+    "components": [
+      "listItem"
+    ]
+  },
+  {
+    "id": "teaser",
+    "components": [
+      "cta"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "cta",
+      "teaser"
+    ]
+  },
+  {
+    "id": "listItem",
+    "components": [
+      "cta"
+    ]
+  },
+  {
+    "id": "links",
+    "components": [
+      "linkItem",
+      "linkgrid"
+    ]
+  },
+  {
+    "id": "teaser-list",
+    "components": [
+      "teaser"
+    ]
+  },
+  {
+    "id": "sign-in",
+    "components": [
+      "ctaWithIcon"
+    ]
+  },
+  {
+    "id": "contact",
+    "components": [
+      "ctaWithIcon"
+    ]
+  },
+  {
+    "id": "immersive-teaser",
+    "components": [
+      "teaser"
+    ]
+  },
+  {
+    "id": "highlight-tabs",
+    "components": [
+      "highlight-item"
+    ]
+  },
+  {
+    "id": "widget",
+    "components": [
+      "ctaWithIcon"
+    ]
+  },
+  {
+    "id": "nexa-world",
+    "components": [
+      "ctaWithIcon"
+    ]
+  },
+  {
+    "id": "nexa-hero-banner",
+    "components": [
+      "nexa-hero-banner-item"
+    ]
+  },
+  {
+    "id": "banner-carousel",
+    "components": [
+      "banner-carousel-car"
+    ]
+  },
+  {
+    "id": "slider",
+    "components": [
+      "teaser"
+    ]
+  },
+  {
+    "id": "best-deals",
+    "components": [
+      "teaser"
+    ]
+  },
+  {
+    "id": "highlights",
+    "components": [
+      "highlight"
+    ]
+  },
+  {
+    "id": "finance-options",
+    "components": [
+      "teaser"
+    ]
+  },
+  {
+    "id": "nexa-car-hero-banner",
+    "components": [
+      "nexa-car-hero-banner-item"
+    ]
+  },
+  {
+    "id": "brand-film-carousel",
+    "components": [
+      "brand-film-carousel-item"
+    ]
+  },
+  {
+    "id": "finance-entry-point",
+    "components": [
+      "teaser"
+    ]
+  },
+  {
+    "id": "section-navigator",
+    "components": []
+  },
+  {
+    "id": "mfe-poc",
+    "components": []
+  },
+  {
+    "id": "hero-banner-dealer",
+    "components": [
+      "cta"
+    ]
+  },
+  {
+    "id": "offer-list",
+    "components": [
+      "offer-item"
+    ]
+  },
+  {
+    "id": "secondary-navigation",
+    "components": [
+      "cta"
+      
+    ]
+  },
+ 
+  {
+    "id": "safety-tabs",
+    "components": [
+      "safety-item"
+    ]
+  },
+  {
+    "id": "brand-header",
+    "components": [
+      "brand-header-item"
+    ]
+  },
+  {
+    "id": "location",
+    "components": [
+      "cities"
+    ]
+  }
+]

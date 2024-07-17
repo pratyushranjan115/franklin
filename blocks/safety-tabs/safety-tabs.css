@@ -1,0 +1,148 @@
+.safety-tabs {
+  p{
+    margin:unset;
+    font-family:unset;
+    font-size:unset;
+    line-height: unset;
+  }
+  background-color: #18171a;
+  padding-bottom:36px;
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 73% 96%, 68% 100%, 1% 100%);
+  @media(min-width:999px){
+    padding-bottom:90px;
+  }
+}
+.safetyTabItem {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  padding: 32px 20px 129px 20px;
+  @media(min-width:999px){
+    flex-direction:row;
+    gap: 130px;
+    padding: 72px 65px 96px 65px;
+  }
+}
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #ffffff;
+  @media(min-width:999px){
+    gap:64px;
+  }
+  .title p{
+    font-family: "Kepler Std";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.64px;
+    @media(min-width:999px){
+      font-size:64px;
+      line-height:72px;
+      letter-spacing:1.28px;
+      width:397px;
+    }
+  }
+  .description p{
+    font-family: "Fira Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: calc(100%-85px);
+    @media(min-width:999px){
+      font-size:18px;
+      font-weight:300;
+      line-height:24px;
+      width:303px;
+    }
+  }
+}
+.switch-list-section {
+  padding: 12px 20px 0px 20px;
+  margin-top: 16px;
+  display:flex;
+  justify-content: center;
+
+  .switch-list {
+    list-style-type: none;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+
+    @media (min-width: 999px) {
+      gap: 24px;
+      justify-content: center;
+      margin-top: 36px;
+    }
+  }
+
+  @media (min-width: 999px) {
+    position: relative;
+  }
+}
+
+.hotspot-img{
+  object-fit:cover;
+  width:100%;
+  height:auto;
+  aspect-ratio:319/180;
+/*   background-repeat:no-repeat; */
+  @media(min-width:999px){
+    aspect-ratio:709/402;
+  }
+}
+.switch-list-item {
+  cursor: pointer;
+  color: #b2b2b2;
+  text-decoration: none;
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  white-space: nowrap;
+  position: relative;
+  padding-left:8px;
+  padding-right:8px;
+  padding-bottom:8px;
+
+  @media (min-width: 999px) {
+    font-size: 16px;
+    line-height: 20px;
+    width:210px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-bottom:14px;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    overflow-wrap: break-word;
+    white-space:pre-wrap;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #b2b2b2;
+  }
+
+  &.active {
+    color: #ffffff;
+    font-weight: 500;
+
+    &::after {
+      border-bottom: 3px solid #ffffff;
+    }
+  }
+}
+
+.safetyTabItem {
+  display: none;
+}
